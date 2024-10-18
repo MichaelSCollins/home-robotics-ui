@@ -1,15 +1,6 @@
 import { CatalogueGrid } from "@/components/grid/CatalogGrid";
 import { GridItemFieldType } from "@/enum/GridItemFieldType";
-
-export interface Robot {
-  hasSpeakers?: any;
-  hasSonar?: any;
-  hasPressureSensor?: any;
-  id: string;
-  name: string;
-  description: string;
-  hasVideoDevice: boolean;
-}
+import { Robot } from "@/interfaces/Robot";
 
 export const RobotTable = ({ robots }: { robots: Robot[] }) => (
   <section className="h-full pl-6 pr-6 md:p-12 relative">
