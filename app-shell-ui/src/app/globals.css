@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: rgb(19, 78, 74);
+  --foreground: rgb(19, 78, 74);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgb(19, 78, 74);
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+/* Custom Scrollbar */
+.scrollbar-teal::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.scrollbar-teal::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Background of the scrollbar track */
+}
+
+.scrollbar-teal::-webkit-scrollbar-thumb {
+  background-color: #38b2ac; /* Thumb (scroll handle) color - teal */
+  border-radius: 6px; /* Rounded scrollbar thumb */
+}
+
+.scrollbar-teal::-webkit-scrollbar-thumb:hover {
+  background-color: #319795; /* Darker teal on hover */
+}

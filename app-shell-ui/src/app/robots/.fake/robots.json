@@ -1,0 +1,26 @@
+[
+    {
+        "id": "solar-bot-1",
+        "name": "Solar Energy Harvester",
+        "description": "A solar-powered robot that searches for the best sunspots on the beach or desert to collect and store solar energy.",
+        "hasVideoDevice": false
+    },
+    {
+        "id": "trash-bot-1",
+        "name": "Trash Collector",
+        "description": "A robot designed to roam the beach, pick up trash, store it, and empty it in a designated location.",
+        "hasVideoDevice": false
+    },
+    {
+        "id": "drink-bot-1",
+        "name": "Drink Vendor",
+        "description": "A robot that navigates sidewalks or beaches, vending drinks to people, made from recycled parts.",
+        "hasVideoDevice": false
+    },
+    {
+        "id": "talk-bot-1",
+        "name": "Chat Assistant",
+        "description": "A robot that roams around and talks to people using free GPT generative AI, built with recycled junkyard parts.",
+        "hasVideoDevice": true
+    }
+]
