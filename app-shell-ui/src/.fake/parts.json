@@ -1,0 +1,138 @@
+[
+  {
+    "id": "motor-1",
+    "title": "DC Motor",
+    "description": "Recycled motor used for driving wheels or tracks.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Voltage", "value": "12V" }
+    ]
+  },
+  {
+    "id": "solar-panel-1",
+    "title": "Solar Panel",
+    "description": "Recycled solar panel used to collect solar energy.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Wattage", "value": "50W" }
+    ]
+  },
+  {
+    "id": "battery-1",
+    "title": "Lithium-Ion Battery",
+    "description": "Recycled lithium-ion battery used for energy storage.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Capacity", "value": "2000mAh" }
+    ]
+  },
+  {
+    "id": "wheel-1",
+    "title": "Wide Wheels",
+    "description": "Large wheels for better traction in sand or uneven terrain.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Size", "value": "15 inches" }
+    ]
+  },
+  {
+    "id": "servo-1",
+    "title": "Servo Motor",
+    "description":
+      "Servo motor for adjusting solar panels for maximum sun exposure.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": false
+      },
+      { "type": 1, "label": "Torque", "value": "2kg/cm" }
+    ]
+  },
+  {
+    "id": "ultrasonic-sensor-1",
+    "title": "Ultrasonic Sensor",
+    "description": "Sensor used for obstacle detection in the robot.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": false
+      },
+      { "type": 1, "label": "Range", "value": "2m" }
+    ]
+  },
+  {
+    "id": "arduino-1",
+    "title": "Arduino Board",
+    "description": "Microcontroller to manage the robot’s operations.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Model", "value": "Arduino Uno" }
+    ]
+  },
+  {
+    "id": "frame-1",
+    "title": "Metal Frame",
+    "description": "Recycled metal frame used to build the chassis.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Material", "value": "Aluminum" }
+    ]
+  },
+  {
+    "id": "solar-tracker-1",
+    "title": "Solar Tracker",
+    "description":
+      "A system that automatically aligns the solar panels to the sun.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": false
+      },
+      {
+        "type": 1,
+        "label": "Tracking Type",
+        "value": "Dual-Axis"
+      }
+    ]
+  },
+  {
+    "id": "bin-1",
+    "title": "Trash Bin",
+    "description": "Container for collecting trash.",
+    "fields": [
+      {
+        "type": 0,
+        "label": "Available in Junkyard",
+        "value": true
+      },
+      { "type": 1, "label": "Capacity", "value": "10 liters" }
+    ]
+  }
+]
